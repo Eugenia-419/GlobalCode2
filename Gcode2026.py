@@ -1,48 +1,61 @@
-These are results for Story of ELON MUSK
-Search instead for Story of ELON MASK
-AI Overview
-Elon Musk is a South African-born entrepreneur and engineer who built global leaders in electric vehicles, space exploration, and technology. 
-Early Life in South Africa
 
-    Born in Pretoria: Elon Musk was born on June 28, 1971.
-    Tough childhood: He faced severe bullying at school and a difficult home life with an abusive father.
-    Self-taught coder: He read books voraciously and taught himself computer programming by age 10.
-    First game sale: At age 12, he created and sold the code for a video game called Blastar for $500.
-    Moving North: At age 17, he moved to Canada to avoid mandatory military service in South Africa and later transferred to the University of Pennsylvania. 
+# # product = input("Enter the product name: ")
+# # price = float(input("Enter the price of the product: "))
+# # quantity = int(input("Enter the quantity of the product: "))
 
-Early Tech Ventures
+# # total = price * quantity
 
-    Zip2: In 1995, he co-founded his first company, providing online maps and directories for newspapers. It sold for $37 million in 1999.
-    PayPal: He founded X.com, which merged to form PayPal. eBay bought PayPal in 2002 for $1.5 billion, netting Musk $180 million. 
+# # print(
+# #     f"The item you bought is {product}, the price for your item is {price}, and the quantity is {quantity} and the everything sums to {total}")
+# # print("===================================")
+# # print("           RECEIPT                ")
+# # print("===================================")
+# # print("Product: " , product)
+# # print("Quantity: " , quantity)
+# # print("Price: " , price)
+# # print("Total: " , total)
 
-SpaceX, Tesla, and Beyond
+# age = int(input("Enter your age: "))
+# if age >= 18:
+#     print ("You are eligible to vote.")
+# else: 
+#     print ("You are not eligible to vote.")
 
-    SpaceX: Founded in 2002 with the goal of lowering rocket launch costs and making humanity a multi-planetary species.
-    Tesla: He joined Tesla as an early investor in 2004 and took over as CEO in 2008, turning it into the world's leading electric car maker.
-    New enterprises: He launched Neuralink and The Boring Company, and acquired Twitter in 2022, later rebranding it to X. 
+# light = input("Enter any color of your choice: ")
+# if light == "Red" or "RED" or "red":
+#     print("Stop")
+# elif light == "Yellow" or "YELLOW" or "yellow":
+#     print("Get ready")
+# elif light == "Green" or "GREEN" or "green":
+#     print("Go.....")
 
-Learn more about the early life and foundational steps of the entrepreneur:
-The Origin Story Of Elon Musk | Johnny Harris by Johnny Harris on Facebook
-9:38
-The Origin Story Of Elon Musk | Johnny Harris
-49K views · 1 year ago
-Facebook · Johnny Harris
-Would you like to explore a specific part of his journey, such as SpaceX milestones, Tesla's financial growth, or his recent ventures in AI?
+# score = int(input("Enter your score here: "))
 
-    Facebook·Johnny Harris
+# if score >= 85:
+#     print("A")
+# elif score >= 75:
+#     print("B")
+# elif score >= 65:
+#     print("C")
+# elif score >= 55:
+#     print("D")
+# elif score >= 45:
+#     print("E")
+# elif score >= 40:
+#     print("F")
+# else:
+#     print("FAIL")
 
-The Origin Story Of Elon Musk | Johnny Harris
-28 Aug 2025 — elon Musk was born in the summer of 1971. in South Africa. from a young age he was bullied pretty relentlessly by kids at school f...
-The Origin Story Of Elon Musk | Johnny Harris by Johnny Harris on Facebook
-9:38
-Wikipedia
-Elon Musk - Wikipedia
-Born into the wealthy Musk family in Pretoria, South Africa, Musk emigrated in 1989 to Canada; he has Canadian citizenship since h...
-YouTube·SunnyV2
-The Story of Elon Musk
-29 Oct 2020 — anything you want cars homes businesses government power the ability to travel to space all of these points will be covered in thi...
-3m
 
-Show all
-AI can make mistakes, so double-check responses
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+users = {
+    'admin1': 'password1',
+    'admin2': 'password2',
+    'admin3': 'password3'
+}
 
+if users [username] ==  password:
+    print("Login successful.")
+else:
+    print("Login failed.")
